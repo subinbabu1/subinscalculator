@@ -1,0 +1,98 @@
+    #inpt {
+        width: 414px;
+        height: 100px;
+        background-color: black;
+        position: relative;
+        left: 100px;
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+        font-size: 70px;
+        text-align: right;
+        color: white;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .keys {
+        font-size: xx-large;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 3px;
+    }
+    
+    .keys2 {
+        font-size: xx-large;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 5px;
+    }
+    
+    .keys3 {
+        font-size: xx-large;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 7px;
+    }
+    
+    .keys4 {
+        font-size: xx-large;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 9px;
+    }
+    
+    .keys5 {
+        font-size: xx-large;
+        width: 100px;
+        height: 100px;
+        position: relative;
+        left: 100px;
+        top: 12px;
+    }
+    
+    body {
+        height: 800px;
+    }
+    
+    .sbutton {
+        border-radius: 15px;
+        color: black;
+        background-color: white;
+    }
+    
+    .sbutton:hover {
+        border-radius: 15px;
+        color: white;
+        background-color: black;
+    }
+    
+    .cbut {
+        background-color: blue;
+        border-radius: 15px;
+    }
+    
+    .acbut {
+        background-color: red;
+        border-radius: 15px;
+    }
+    
+    .equalto {
+        font-size: xx-large;
+        position: absolute;
+        left: 720px;
+        bottom: 62px;
+        width: 100px;
+        height: 300px;
+        background-color: green;
+        border-radius: 15px;
+    }

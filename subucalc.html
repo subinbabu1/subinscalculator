@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="subucalc.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="subcalulator.js"></script>
+</head>
+
+<body>
+    <h1>Subin's Calculator</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <input id="inpt" type=" text ">
+            </div>
+            <div class="col-2 "></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-5">
+                <button class="keys sbutton" onclick="displayBox('+')">+</button>
+                <button class="keys sbutton" onclick="displayBox('-')">-</button>
+                <button class="keys sbutton" onclick="displayBox('*')">*</button>
+                <button class="keys sbutton" onclick="displayBox('/')">/</button>
+            </div>
+            <div class="col-2"></div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <button class="keys2 sbutton" onclick="displayBox('7')">7</button>
+                <button class="keys2 sbutton " onclick="displayBox('8')">8</button>
+                <button class="keys2 sbutton " onclick="displayBox('9')">9</button>
+                <button class="equalto" onclick="evaluateExpression()">=</button>
+            </div>
+            <div class=" col-2 "></div>
+            <div class="col-2 "></div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-2 "></div>
+            <div class="col-5 ">
+                <button class="keys3 sbutton " onclick="displayBox( '4') ">4</button>
+                <button class="keys3 sbutton " onclick="displayBox( '5') ">5</button>
+                <button class="keys3 sbutton " onclick="displayBox( '6') ">6</button>
+            </div>
+            <div class="col-2 "></div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-2 "></div>
+            <div class="col-5 ">
+                <button class=" keys4 sbutton " onclick="displayBox( '1') ">1</button>
+                <button class=" keys4 sbutton " onclick="displayBox( '2') ">2</button>
+                <button class=" keys4 sbutton " onclick="displayBox( '3') ">3</button>
+            </div>
+            <div class="col-2 "></div>
+        </div>
+    </div>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-2 "></div>
+            <div class="col-5 ">
+                <button class=" keys5 sbutton " onclick="displayBox( '0') ">0</button>
+                <button class="keys5 sbutton " onclick="backspace() ">.</button>
+                <button class="keys5 cbut " onclick="clearScreen() ">C</button>
+                <button class="keys5 acbut ">AC</button>
+            </div>
+            <div class="col-2 "></div>
+        </div>
+    </div>
+</body>
+
+</html>
